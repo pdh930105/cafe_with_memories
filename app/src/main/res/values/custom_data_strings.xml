@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hint_array">
+        <item>첫번째 힌트 입니다.\n이 힌트는 1992년부터 시작되었으며\n현재 테스트용으로 사용되고 있습니다.</item>
+        <item>두번째 힌트입니다.\n이 힌트는 2020년에 작성되고 있으며\njson파일로 작성하고 있습니다.</item>
+        <item>세번째 입니다.아앙러남어ㅣㄹ마넝림냐ㅓㄹ미ㅑㅈㄷ</item>
+    </string-array>
+    <string-array name="game_image_array">
+        <item>drawable/test_img</item>
+        <item>drawable/ndg1</item>
+        <item>drawable/ndg2</item>
+        <item>drawable/ndg3</item>
+        <item>drawable/ndg4</item>
+        <item>NULL</item>
+    </string-array>
+    <string-array name="game_text_array">
+        <item>첫번째 어쩌구 저꺼줌닝러민ㅇㄹ</item>
+        <item>두번째 어쩌구 저쩜ㄴㅇ림ㄴㅇㄹ</item>
+        <item>NULL</item>
+        <item>ㄴㅇㄹ히ㅑㄴㅇㅎㄴㅇ러ㅠㄷㄱ</item>
+        <item>다섯!!5!! FIVE</item>
+    </string-array>
+</resources>

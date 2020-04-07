@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startActivity">
+    <fragment
+        android:id="@+id/startActivity"
+        android:name="com.example.myfirstapp.StartActivity"
+        android:label="activity_start"
+        tools:layout="@layout/activity_start" >
+        <action
+            android:id="@+id/action_startActivity_to_storyActivity"
+            app:destination="@id/storyActivity" />
+        <action
+            android:id="@+id/action_startActivity_to_ingActvity"
+            app:destination="@id/ingActvity" />
+        <action
+            android:id="@+id/action_startActivity_to_mapActivity"
+            app:destination="@id/mapActivity" />
+        <action
+            android:id="@+id/action_startActivity_to_chatActivity"
+            app:destination="@id/chatActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/storyActivity"
+        android:name="com.example.myfirstapp.StoryActivity"
+        android:label="activity_story"
+        tools:layout="@layout/activity_story" >
+        <action
+            android:id="@+id/action_storyActivity_to_startActivity"
+            app:destination="@id/startActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/ingActvity"
+        android:name="com.example.myfirstapp.IngActvity"
+        android:label="activity_ing"
+        tools:layout="@layout/activity_ing" >
+        <action
+            android:id="@+id/action_ingActvity_to_mapActivity"
+            app:destination="@id/mapActivity" />
+        <action
+            android:id="@+id/action_ingActvity_to_startActivity"
+            app:destination="@id/startActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapActivity"
+        android:name="com.example.myfirstapp.MapActivity"
+        android:label="activity_map"
+        tools:layout="@layout/activity_map" >
+        <action
+            android:id="@+id/action_mapActivity_to_startActivity"
+            app:destination="@id/startActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatActivity"
+        android:name="com.example.myfirstapp.ChatActivity"
+        android:label="activity_chat"
+        tools:layout="@layout/activity_chat" >
+        <action
+            android:id="@+id/action_chatActivity_to_startActivity"
+            app:destination="@id/startActivity" />
+    </fragment>
+</navigation>

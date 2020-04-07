@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AdminHallLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AdminChatActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id= "@+id/userIDView"
+        android:text="userId 뜨는곳"
+        android:textSize="50dp"
+        android:gravity="center_vertical|center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        ></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/insertBtn"
+        android:text="chat"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/userIDView"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/resetBtn"
+        android:text="DB Reset"
+        app:layout_constraintTop_toBottomOf="@id/insertBtn"
+        ></Button>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/forceBtn"
+        android:text="n hint / n solve"
+        app:layout_constraintTop_toBottomOf="@id/resetBtn"
+        ></Button>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
